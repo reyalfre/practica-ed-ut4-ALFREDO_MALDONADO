@@ -52,7 +52,6 @@ public class TestService {
 		productos[0] = new Producto(500, 60, 1);
 		productos[1] = new Producto(500, 30, 2);
 		tienda.setProductos(productos);
-		serv.calculaMargenBeneficio(tienda);
 		int resultado = serv.calcularIdMax(tienda);
 		assertEquals(resultado, 2);
 	}
@@ -65,7 +64,6 @@ public class TestService {
 		productos[0] = new Producto(500, 60, 1);
 		productos[1] = new Producto(500, 30, 2);
 		tienda.setProductos(productos);
-		serv.calculaMargenBeneficio(tienda);
 		int resultado = serv.calcularIdMin(tienda);
 		assertEquals(resultado, 1);
 	}
