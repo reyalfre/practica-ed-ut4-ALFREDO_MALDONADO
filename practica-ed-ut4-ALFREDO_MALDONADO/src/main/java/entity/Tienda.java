@@ -18,6 +18,9 @@ public class Tienda {
 	public Tienda() {
 		beneficioTotal=0;
 		maxMargen=0;
+		minMargen=0;
+		idMaxMargen=0;
+		idMinMargen=0;
 		
 	}
 
